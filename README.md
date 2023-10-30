@@ -21,7 +21,7 @@ The scaled data from the first step is reduced to 3 features using a PCA algorit
 
 ## Conclusions
 
-Upon visualizing the groupings, we see that in both cases we see two largely distinct groups as well as two noticeable outliers.  The outliers are the same between the two data sets: "ethlend" and "celsius-degree-token".  Visually, it is difficult to compare the two groupings, as there are dimensions of each plot which are not shown in the diagrams.  Nonetheless, we do see distinct groupings with some questionably grouped points on the boundaries, with neither group appearing to be obviously more valid than the other.  It is possible that the outliers in the data may be affecting the grouping algorithm, and future analysis may consider removing these points.  Additionally, silhouette analysis of the k-means clusterings may help in assessing which of the two groupings is better clustered around the centroids.
+Upon visualizing the groupings, we see that in both cases there are two largely distinct groups as well as two noticeable outliers.  The outliers are the same between the two data sets: "ethlend" and "celsius-degree-token".  Visually, it is difficult to compare the two groupings, as there are dimensions of each plot which are not shown in the diagrams.  Nonetheless, we do see distinct groupings with some questionably grouped points on the boundaries, with neither group appearing to be obviously more valid than the other.  It is possible that the outliers in the data may be affecting the grouping algorithm, and future analysis may consider removing these points.  Additionally, silhouette analysis of the k-means clusterings may help in assessing which of the two groupings is better clustered around the centroids.
 
 ## Authorship
 
